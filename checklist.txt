@@ -1,0 +1,2 @@
+1. For different accumulate types, use different truncations in Accumulator. Use 8 bits as the least truncation.
+2. Use reshaper to change the token order. For different GeMM, get different reshape patterns.
