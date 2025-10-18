@@ -37,7 +37,7 @@ LightMamba是文章《LightMamba: Efficient Mamba Acceleration on FPGA with Quan
 LIGHT-MAMBA/
 ├── src/                    # HLS设计头文件
 ├── case/                   # 包含HLS算子模块组件，以及组件的单元测试
-│   ├── refs.7z             # 神经网络权重数据压缩包，需解压
+│   ├── refs.7z             # Mamba模型权重，非线性查找表，测试激励数据压缩包，需解压
 │   ├── ATTN.cpp.template   
 │   ├── MLP.cpp.template     
 │   ├── SOFTMAX_1X2.cpp      
@@ -66,7 +66,7 @@ LIGHT-MAMBA/
 └── template.tcl            # 用于生成各个HLS项目的模板文件
 ```
 
-
+ref.zip 包括Mamba 网络相关的权重、非线性查找表与测试激励文件均包含在下述链接中：https://huggingface.co/PKU-SEC-Lab/LightMamba
 
 ## 4. 开发流程
 
