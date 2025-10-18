@@ -34,7 +34,7 @@ This project includes several components:
 LIGHT-MAMBA/
 ├── src/                    # HLS design files
 ├── case/                   # Contains HLS operator module components and component unit tests
-│   ├── refs.7z             # Neural network weight data compressed package, need to be decompressed
+│   ├── ref.zip            # The weights and nonlinear lookup tables (LUTs) for the Mamba network, along with the test stimuli
 │   ├── ATTN.cpp.template   
 │   ├── MLP.cpp.template     
 │   ├── SOFTMAX_1X2.cpp      
@@ -63,6 +63,7 @@ LIGHT-MAMBA/
 └── template.tcl            # Template file for generating HLS projects
 
 ```
+ref.zip which include the weights and nonlinear lookup tables (LUTs) for the Mamba network, along with the test stimuli, is located at: https://huggingface.co/PKU-SEC-Lab/LightMamba
 
 #### 4. Development Flow
 
